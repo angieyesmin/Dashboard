@@ -1,0 +1,93 @@
+/* Estilo para el contenedor del login */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupar toda la ventana */
+  background: linear-gradient(
+    135deg,
+    #f6d365 0%,
+    #fda085 100%
+  ); /* Fondo degradado */
+  padding: 1rem;
+}
+
+/* Estilo para el formulario de login */
+.login-form {
+  background-color: #fff; /* Fondo blanco */
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Sombra más suave */
+  width: 100%;
+  max-width: 400px; /* Ancho máximo */
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.login-form:hover {
+  transform: translateY(-5px); /* Animación de elevación al pasar el mouse */
+}
+
+.login-form h2 {
+  color: #333; /* Título oscuro */
+  margin-bottom: 1.5rem;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 1.2rem;
+  border: 1px solid #ddd; /* Borde ligero */
+  border-radius: 6px;
+  background-color: #f9f9f9; /* Fondo claro */
+  color: #333;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.login-form input:focus {
+  border-color: #ff6600; /* Borde naranja al hacer foco */
+  background-color: #fff;
+}
+
+.login-form button {
+  background-color: #ff6600; /* Naranja */
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.login-form button:hover {
+  background-color: #e65c00; /* Naranja más oscuro */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra al pasar el mouse */
+}
+
+.login-form button:active {
+  background-color: #cc5200; /* Naranja más intenso */
+  box-shadow: none;
+}
+
+/* Estilo para mensajes adicionales */
+.login-form .message {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.login-form .message a {
+  color: #ff6600; /* Enlaces naranjas */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-form .message a:hover {
+  text-decoration: underline;
+}

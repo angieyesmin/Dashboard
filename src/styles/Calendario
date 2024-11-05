@@ -1,0 +1,24 @@
+/* src/SchoolCalendar.css */
+.school-calendar {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  color: #f0f0f0; /* Texto en un color claro */
+  background-color: #1a1a1a; /* Fondo oscuro */
+}
+
+h1 {
+  text-align: center;
+  color: #e0e0e0; /* Color del encabezado */
+}
+
+.calendar-container {
+  margin: 20px 0;
+}
+
+.selected-date {
+  text-align: center;
+  margin-top: 20px;
+  color: #c0c0c0; /* Color de texto para la fecha seleccionada */
+}

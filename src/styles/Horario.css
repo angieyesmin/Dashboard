@@ -1,0 +1,44 @@
+/* src/ClassSchedule.css */
+.class-schedule {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  color: #f0f0f0; /* Texto en un color claro */
+  background-color: #1a1a1a; /* Fondo del perfil oscuro */
+}
+
+h1 {
+  text-align: center;
+  color: #e0e0e0; /* Color del encabezado */
+}
+
+h2 {
+  color: #c0c0c0; /* Color de los subtítulos */
+}
+
+table {
+  width: 80%; /* Ajusta el ancho según sea necesario */
+  margin: 20px auto; /* Centrar la tabla */
+  border-collapse: collapse; /* Colapsar bordes */
+  color: #f0f0f0; /* Color de texto */
+}
+
+th,
+td {
+  border: 1px solid #444; /* Color de borde */
+  padding: 8px; /* Espaciado interno */
+  text-align: center; /* Centrar el texto */
+}
+
+th {
+  background-color: #333; /* Color de fondo del encabezado */
+}
+
+.chart-container {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #444; /* Color del borde más oscuro */
+  border-radius: 8px;
+  background-color: #2a2a2a; /* Fondo de las gráficas oscuro */
+}

@@ -1,0 +1,10 @@
+/* Global styles para asegurar que no haya margenes y el fondo sea negro */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #314789; /* Fondo negro */
+    color: white; /* Texto blanco por defecto */
+    font-family: Arial, sans-serif;
+  }
+  
